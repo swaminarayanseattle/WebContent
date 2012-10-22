@@ -33,7 +33,7 @@ response.setDateHeader ("Expires", 0); //prevents caching at the proxy server
 <script>
 	$(function() {
 		$( "#accordion" ).accordion({
-		event: "mouseover" });
+			collapsible: false ,autoHeight: false });
 	});
 	</script>
   
